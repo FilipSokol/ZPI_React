@@ -1,0 +1,40 @@
+@import "../../../styles/variables.scss";
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .mainImage {
+    height: 1000px;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    button {
+      border: 0;
+      padding: 10px 15px 10px 15px;
+      color: white;
+      background-color: rgb(86, 180, 97);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      background-color: rgb(81, 111, 84);
+    }
+  }
+}

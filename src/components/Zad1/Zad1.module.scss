@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.container {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid $grey;
+
+  button {
+    height: min-content;
+    width: min-content;
+  }
+}

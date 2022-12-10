@@ -1,0 +1,8 @@
+@import "../../styles/variables.scss";
+
+.container {
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid $grey;
+}

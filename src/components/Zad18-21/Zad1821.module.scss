@@ -1,0 +1,66 @@
+@import "../../styles/variables.scss";
+
+.container {
+  width: 100%;
+
+  padding: 30px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid $grey;
+  gap: 20px;
+
+  .modal {
+    background-color: rgb(85, 209, 133);
+  }
+
+  .description {
+    color: white;
+    background-color: gray;
+  }
+
+  .contianerModal {
+    padding: 2px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+  }
+
+  .form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+
+      input,
+      textarea {
+        width: 200px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      button {
+        padding: 10px;
+        background-color: rgb(192, 192, 192);
+        border: 1px solid black;
+      }
+    }
+
+    .error {
+      width: 100%;
+      color: red;
+      text-align: center;
+    }
+  }
+}
